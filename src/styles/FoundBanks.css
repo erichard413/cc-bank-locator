@@ -1,0 +1,32 @@
+.FoundBanks {
+    /* outline: 1px solid blue; */
+    background-color: rgb(235, 233, 233, .5);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.no-banks-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.no-banks p:nth-of-type(2) {
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 859px) {
+    .FoundBanks {
+        width: 100%;
+        text-align: center;
+    }
+  }
+@media (min-width: 860px) and (max-width: 1440px) {
+    .FoundBanks {
+        width: 40%;
+    }
+}

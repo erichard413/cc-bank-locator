@@ -1,0 +1,35 @@
+.Footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: #002b48;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.Footer p {
+    color: white;
+    padding-right: 50px; 
+}
+@media (max-width: 390px) {
+    .Footer {
+        height: 30px;
+    }
+    .Footer p {
+        font-size: .6rem;
+        text-align: center;
+        padding: 0;
+    }
+  }
+  @media (min-width: 391px) and (max-width: 859px) {
+    .Footer {
+        height: 30px;
+    }
+    .Footer p {
+        font-size: .6rem;
+        text-align: center;
+        padding: 0;
+    }
+}

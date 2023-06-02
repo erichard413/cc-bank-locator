@@ -1,0 +1,71 @@
+.Header {
+    /* outline: 1px solid green; */
+    display: inline-block;
+    width: 100vw;
+}
+.Header .left {
+    /* outline: 1px solid blue; */
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.Header .left img {
+    display: inline;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.Header .right {
+    /* outline: 1px solid red; */
+    display: inline-block;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    vertical-align: top;
+    text-align: right;
+}
+.Header .right p {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-family: "Nunito Sans", "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+.band-div {
+    display: block;
+    height: 5px;
+    width: 100vw;
+}
+.band-div.blue {
+    background-color: #0073bd;
+}
+.band-div.black {
+    background-color: black;
+}
+
+@media (max-width: 540px) {
+    .Header {
+      width: 100%;
+    }
+    .Header .right {
+        display: none;
+    }
+    .Header .left img {
+        width: 90%;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .Header .left {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        height: 50px;
+    }
+  }
+  @media (min-width: 541px) and (max-width: 869px) {
+    .Header .right {
+        display: none;
+    }
+  }

@@ -1,0 +1,12 @@
+.MapContainer {
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px;
+    width: 50vw;
+}
+@media (max-width: 859px) {
+    .MapContainer {
+        width: 100%;
+        display: none;
+    }
+  }

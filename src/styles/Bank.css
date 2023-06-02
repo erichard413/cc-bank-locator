@@ -1,0 +1,155 @@
+.Bank {
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    width: 95%;
+    padding: 10px;
+    margin: 5px;
+}
+.Bank ul {
+    list-style: none;
+    padding: 0;
+}
+.Bank:hover {
+    background-color: white;
+}
+.Bank p {
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2px;
+}
+.Bank p:nth-of-type(1) {
+    text-align: center;
+}
+.Bank p:nth-of-type(2) {
+    font-size: .8rem;
+    padding: 0;
+    margin: 0;
+    color: rgb(1, 107, 1);
+    text-align: center;
+}
+.Bank-left, .Bank-right {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+    margin: 0;
+}
+.Bank-left {
+    width: 50%;
+}
+.Bank-right {
+    width: 30%;
+}
+.Bank-left ul {
+    text-align: left;
+    padding-left: 45px;
+}
+.Bank-products {
+    display: block;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    padding-left: 85px;
+}
+.Bank-products div {
+    display: inline-block;
+    font-size: .7rem;
+    color: white;
+    width: 70px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    margin: 2px;
+    text-align: center;
+}
+.Bank-products .Access {
+    background-color: rgb(3, 175, 3);
+}
+.Bank-products .Gift {
+    background-color: rgb(21, 4, 255);
+}
+.Bank-products .TravelMoney {
+    background-color: rgb(211, 127, 2);
+}
+.Bank-products .Incentive {
+    background-color: rgb(236, 4, 4);
+}
+.Bank-right li:nth-of-type(1) {
+    font-weight: 600;
+}
+.Bank a {
+    text-decoration: none;
+    font-weight: 600;
+    color: blue;
+}
+a:hover {
+    color: rgb(185, 185, 218);
+}
+.Bank.active {
+    background-color: rgb(156, 156, 156);
+}
+.Bank:hover {
+    cursor: pointer;
+}
+.Bank:last-of-type {
+    margin-bottom: 100px;
+}
+.Bank-left a {
+    color: black;
+    font-weight: 300;
+}
+.Bank-left ul:hover {
+    color: rgb(72, 123, 218);
+}
+.Bank-left a:visited {
+    color: black;
+}
+
+@media (max-width: 390px) {
+    .Bank {
+        padding-left: 4%;
+        width: 90%;
+        text-align: center;
+    }
+    .Bank .Bank-products > p {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .Bank-products {
+        padding-left: 0px;
+    }
+    .Bank:last-of-type {
+        margin-bottom: 200px;
+    }
+    .Bank-right, .Bank-left {
+        display: block;
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .Bank ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+  }
+  @media (min-width: 391px) and (max-width: 859px) {
+        .Bank {
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            text-align: center;
+        }
+        .Bank:last-of-type {
+            margin-bottom: 150px;
+        }
+        .Bank {
+            text-align: center;
+        }
+        .Bank-right, .Bank-left {
+            padding: 0;
+            width: 40%;
+            margin: 5px;
+        }
+  }
